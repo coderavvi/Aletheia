@@ -53,7 +53,7 @@ Be thorough, objective, and consider:
     },
   ];
   const response = await client.chat.completions.create({
-    model: 'gpt-3.5-turbo',
+    model: 'gpt-4',
     messages,
     temperature: 0.3,
   });
